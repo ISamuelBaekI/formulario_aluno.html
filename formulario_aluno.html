@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+</head>
+
+<body>
+
+    <h1>Cadastro Aluno</h1>
+
+    <form action="#" method="get">
+
+
+        <label for="name">Nome:</label>
+        <input type="text" name="name" id="name" required>
+
+        <br>
+        <br>
+
+        <label for="idade">Idade:</label>
+        <input type="number" name="idade" id="idade" min="1" max="99" required>
+
+        <br>
+        <br>
+
+        <label for="Arquivo">Enviar Arquivo:</label>
+        <input type="file" name="Arquivo" id="Arquivo" />
+
+        <br>
+        <br>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+
+        <br>
+        <br>
+
+        <label for="password">Senha</label>
+        <input type="password" name="password" id="password" required>
+
+        <br>
+        <br>
+
+        <label for="Nascimento">Data de Nascimento:</label>
+        <input type="date" name="Nascimento" id="Nascimento" required>
+
+        <br>
+        <br>
+
+        <label for="phone">Telefone</label>
+        <input type="phone" name="phone" id="phone" placeholder="(XX) XXXXX-XXXX" required>
+
+        <br>
+        <br>
+
+        <label for="Genero">Genero:</label>
+
+        <input type="radio" name="sexo" id="feminino" value="feminino" />
+        <label for="feminino">Feminino</label>
+
+        <input type="radio" name="sexo" id="masculino" value="masculino" />
+        <label for="masculino">Masculino</label>
+
+        <br>
+        <br>
+
+        <label for="estado">Estado</label>
+        <select name="estado" id="estado">
+
+            <option> Selecione...</option>
+            <option value="AC">AC</option>
+            <option value="AL">AL</option>
+            <option value="AP">AP</option>
+            <option value="AM">AM</option>
+            <option value="BA">BA</option>
+            <option value="CE">CE</option>
+            <option value="DF">DF</option>
+            <option value="ES">ES</option>
+            <option value="GO">GO</option>
+            <option value="MA">MA</option>
+            <option value="MT">MT</option>
+            <option value="MS">MS</option>
+            <option value="MG">MG</option>
+            <option value="PA">PA</option>
+            <option value="PB">PB</option>
+            <option value="PR">PR</option>
+            <option value="PE">PE</option>
+            <option value="PI">PI</option>
+            <option value="RJ">RJ</option>
+            <option value="RN">RN</option>
+            <option value="RS">RS</option>
+            <option value="RO">RO</option>
+            <option value="RR">RR</option>
+            <option value="SC">SC</option>
+            <option value="SP">SP</option>
+            <option value="SE">SE</option>
+            <option value="TO">TO</option>
+
+        </select>
+
+        <br>
+        <br>
+
+        <legend>Mensagem:</legend>
+        <textarea name="Mensagem" id="Mensagem">
+        </textarea>
+
+        <br>
+        <br>
+
+        <input type="submit" value="Enviar" />
+
+
+    </form>
+
+</body>
+
+</html>
